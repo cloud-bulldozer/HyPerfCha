@@ -7,7 +7,6 @@ echo "The current directory is, $PWD"
 export NAMESPACE=openshift-etcd
 export LABEL_SELECTOR="k8s-app=etcd"
 export DISRUPTION_COUNT=1
-export CONTAINER_NAME=etcd
 export ACTION="1"
 export RETRY_WAIT=60
 export ENABLE_ALERTS=true
