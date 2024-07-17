@@ -1,9 +1,7 @@
 # HyPerfCha
 Tools which run Performance and Chaos test on large Scale Managed Hypershift clusters on public cloud. Focuses on benchmarking HostedControlPlanes and Management Control Planes at high workload and turbulence. 
 
-Application that runs Performance and Chaos benchmarking on HostedControlPlanes and Management Control Planes at high workload and turbulence. Currently focussing large Scale Managed Hypershift clusters on AWS. 
-
-It executes a series of jobs in order to stress the environment by scaling them to max capacity and it simulates a percentile of real world workload/traffic on them. It utilizes three key tools and an observability stack for reporting and monitoring, 
+It executes a series of jobs in order to stress the environment by scaling them to max capacity and it simulates a percentile of real world workload/traffic/outages on them. It utilizes three key tools and an observability stack for reporting and monitoring, 
 
 ## HCP Burner: 
 It is a cluster orchestrator, spins up a specified number of clusters simultaneously, in this case managed ROSA HCP clusters and prepares them for workload execution. Additionally, it calculates various metrics such as cluster installation & destruction times as well as collects Management Clusters usage metrics.
